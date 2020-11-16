@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group>
+        <item
+            android:id="@+id/regis"
+            android:title="Registro">
+        </item>
+
+        <item
+            android:id="@+id/baja"
+            android:title="Dar de Baja">
+
+        </item>
+
+        <item
+            android:id="@+id/modi"
+            android:title="Modificar">
+
+        </item>
+
+        <item
+            android:id="@+id/lista"
+            android:title="Consultar">
+
+        </item>
+    </group>
+</menu>
