@@ -14,7 +14,5 @@ public class Menu extends AppCompatActivity {
         //Probando Cambios
     }
 
-    public void metodo1(View view){
 
-    }
 }
