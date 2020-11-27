@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         if (user.getText().toString().isEmpty() || pass.getText().toString().isEmpty()){
             Toast toast = Toast.makeText(this, "Los campos no debe de estar vacíos",Toast.LENGTH_SHORT);
             toast.show();
-        }else if (user.getText().toString() != "UseR" && pass.getText().toString() != "ContrA"){
+        }else if (user.getText().toString() == "Admin" && pass.getText().toString() == "bros"){
             Toast toast = Toast.makeText(this,"Usuario o contraseña incorrectos",Toast.LENGTH_SHORT);
             toast.show();
         }else {
