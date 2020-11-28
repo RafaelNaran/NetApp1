@@ -2,6 +2,7 @@ package com.example.netapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,5 +15,9 @@ public class Menu extends AppCompatActivity {
         //Probando Cambios
     }
 
+    public void Agenda(View view){
+        Intent intent = new Intent(this, AgendaM.class);
+        startActivity(intent);
 
+    }
 }
