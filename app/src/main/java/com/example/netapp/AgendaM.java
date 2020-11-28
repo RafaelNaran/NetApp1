@@ -15,7 +15,7 @@ public class AgendaM extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_caract_red);
+        setContentView(R.layout.activity_agendam);
 
         visor= (WebView) findViewById(R.id.Visualizar);
         final WebSettings ajustesVisor= visor.getSettings();
