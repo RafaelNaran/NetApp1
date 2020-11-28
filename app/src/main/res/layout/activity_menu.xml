@@ -35,6 +35,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="56dp"
+        android:onClick="onClick"
         android:text="CONFIG. SERVICIOS RED"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
